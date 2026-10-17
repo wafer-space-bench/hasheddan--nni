@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/hasheddan/nni
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf26b
+  slot: tt_um_hasheddan_nni
+  project: Nearest Neighbor Interpolation
+  size: 1x1
+  kind: digital (Verilog)
+  commit: 44c285794e025b5fefc35a95284770aed8c34c38
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf26b/tt_um_hasheddan_nni
+  branch: tapeout/tinytapeout/ttgf26b/tt_um_hasheddan_nni
+  page: https://app.tinytapeout.com/shuttles/ttgf26b
+generated: '2026-10-17T23:46:00Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf26b/tt_um_hasheddan_nni
+- upstream/main
